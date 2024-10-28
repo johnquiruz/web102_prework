@@ -1,4 +1,4 @@
-# WEB102 Prework - OctoFund: Sea Monster Crowdfunding
+# WEB102 Prework - OctoFund
 
 Submitted by: John Quiruz
 
