@@ -1,32 +1,32 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - OctoFund: Sea Monster Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: John Quiruz
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+OctoFund is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 14 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] The Our Games section has three buttons now change colors upon interaction.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/octofund-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -34,7 +34,13 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+In challenge 3, I made the mistake of using single quotes rather than backticks. The classList function felt unintuitive for me at first,
+so it took me awhile to assign the element a class dynamically. Also, I had difficulty appending the dynamically created element to the
+static HTML until I learned how to use the append function.
+
+Understanding the difference between values and lists when using different operators caused a lot of errors throughout the exercise. For
+example, when using the destructuring and spread method, I made the mistake of outputting list object syntax rather than the actual 
+property value.
 
 ## License
 
